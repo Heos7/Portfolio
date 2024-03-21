@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    min-height: 100vh;
+}
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+}
+
+header .logo
+{
+    color: #FFECD4;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5vw;
+}
+
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a 
+{
+    text-decoration: none;
+    padding: 6px 10px;
+    color: #FFECD4;
+}
+
+header ul li a:not(.active):hover
+{
+    color: #321D56;
+    background: #FFECD4;
+    border-radius: 15px;
+}
+
+.active
+{
+    position: relative;
+    display: inline-block;
+}
+
+.active::after
+{
+    content:'';
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    width: 14px;
+    height: 2px;
+    background-color: #EF4650;
+    border-radius: 5px;
+}
+
+
+.Image
+{
+    background: linear-gradient(#321D56 0%, #EF4650 50%, #FEA658 70%);
+    height: 100vh;
+    width: 100%;
+}
+
+.fondvid
+{
+    background-color: #EF4650;
+    content: '';
+    height: 100vh;
+    width: 100%;
+}
+
+#Titrecard
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Titrecard li
+{
+    color: #FFECD4;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    padding-top: 30px;
+}
+
+.carte
+{
+    height: 35rem;
+    width: 45rem;
+    background-color: #321D56;
+}
+
+
