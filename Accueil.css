@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    min-height: 100vh;
+    background: linear-gradient(#321D56 0%,#F05051 75%,#FEA658 100%);
+    overflow-x: hidden;
+}
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'jost', sans-serif;
+}
+
+header .logo
+{
+    color: #FFECD4;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5vw;
+}
+
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 10px;
+    color: #FFECD4;
+}
+
+header ul li a:not(.active):hover
+{
+    background: #FFECD4;
+    color: #321D56;
+    border-radius: 15px;
+}
+
+.active
+{
+    position: relative;
+    display: inline-block;
+}
+
+.active::after
+{
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    width: 14px;
+    height: 2px;
+    background-color: #F05051;
+    border-radius: 5px;
+}
+
+.Image
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.Image img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*
+.sun {
+    position: absolute;
+    width: 25vw;
+    height: 40vh;
+    top: 20%;
+    left: 70%;
+    background: radial-gradient(
+      circle,
+      #fff2d6 20%,
+      #d89766 25%,
+      transparent 55%
+    );
+  }
+  */
