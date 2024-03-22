@@ -6,11 +6,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body
 {
-    min-height: 100vh;
+    height: 100vh;
     background: linear-gradient(#321D56 0%,#F05051 75%,#FEA658 100%);
     overflow-x: hidden;
 }
@@ -65,7 +66,6 @@ header ul li a:not(.active):hover
     color: #321D56;
     border-radius: 15px;
 }
-
 .active
 {
     position: relative;
@@ -89,6 +89,7 @@ header ul li a:not(.active):hover
     position: relative;
     width: 100%;
     height: 100vh;
+    padding: 100px;
 }
 
 .Image img
@@ -101,18 +102,4 @@ header ul li a:not(.active):hover
     object-fit: cover;
 }
 
-/*
-.sun {
-    position: absolute;
-    width: 25vw;
-    height: 40vh;
-    top: 20%;
-    left: 70%;
-    background: radial-gradient(
-      circle,
-      #fff2d6 20%,
-      #d89766 25%,
-      transparent 55%
-    );
-  }
-  */
+  
