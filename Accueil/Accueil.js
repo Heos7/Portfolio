@@ -1,14 +1,12 @@
-let stars = document.getElementById('stars');
-let back = document.getElementById('Back');
-let milieu = document.getElementById('Milieu');
-let front = document.getElementById('Devant');
-let moon = document.getElementById('moon');
+let back = document.getElementById('back');
+let milieu = document.getElementById('milieu');
+let front = document.getElementById('devant');
+let sun = document.getElementById('sun');
 
 window.addEventListener('scroll', function(){
     let value = window.scrollY;
-    stars.style.left = value + 'px';
-    moon.style.left = value + 'px';
-    moon.style.top = -value + 'px';
+    sun.style.left = value + 'px';
+    sun.style.top = value * 1.5 + 'px';
     back.style.top = value * 0.5 + 'px';
     milieu.style.top = value * 0.25 + 'px';
 })

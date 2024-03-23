@@ -12,8 +12,9 @@
 body
 {
     height: 100vh;
-    background: linear-gradient(#00011D 0%, #321D56 75%, #3EAEDA 100%);
+    background: linear-gradient(#321D56 0%, #F05051 70%, #FEA658 100%);
     overflow-x: hidden;
+    background-repeat: no-repeat;
 }
 
 header
@@ -104,9 +105,9 @@ header ul li a:not(.active):hover
     object-fit: cover;
 }
 
-.Image img#moon
+.Image img#sun
 {
-    mix-blend-mode: screen;
+
     margin-left: -100px;
     z-index: -1;
 }
