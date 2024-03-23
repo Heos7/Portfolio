@@ -11,7 +11,7 @@
 
 body
 {
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(#321D56 0%, #F05051 70%, #FEA658 100%);
     overflow-x: hidden;
     background-repeat: no-repeat;
@@ -110,16 +110,6 @@ header ul li a:not(.active):hover
 
     margin-left: -100px;
     z-index: -1;
-}
-
-.Image img#stars
-{
-    position: absolute;
-    left: 25%;
-    transform: translate(-25%);
-    width: 150vw;
-    height: 47vw;
-    z-index: -2;
 }
 
 .Ecran
