@@ -110,7 +110,7 @@ header ul li a:not(.active):hover
 
 .Ecran
 {
-    padding: 3vw 3vh;
+    padding: 2vh 2vw;
     position: absolute;
     top: 15vh;
     left: 15vw;
@@ -132,7 +132,7 @@ h1
 .Ecran p
 {
     font-family: 'jost', sans-serif;
-    padding-top: 2rem;
+    padding-top: 2vh;
     font-size: 1rem;
     font-weight: 400;
 }

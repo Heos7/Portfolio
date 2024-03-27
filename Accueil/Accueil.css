@@ -114,12 +114,12 @@ header ul li a:not(.active):hover
 
 .Ecran
 {
-    padding: 2rem 3rem;
+    padding: 2vh 2vw;
     position: absolute;
-    top: 8rem;
-    left: 15rem;
-    width: 43rem;
-    height: 23rem;
+    top: 15vh;
+    left: 15vw;
+    width: 40vw;
+    height: 43vh;
     flex-shrink: 0;
     background-color: #FFECD4;
     z-index: 2;
@@ -136,7 +136,7 @@ h1
 .Ecran p
 {
     font-family: 'jost', sans-serif;
-    padding-top: 2rem;
+    padding-top: 2vh;
     font-size: 1rem;
     font-weight: 400;
 }
