@@ -10,7 +10,7 @@
 
 body
 {
-    background: linear-gradient(#321D56 0%, #F05051 50%, #FEA658 70%);
+    background: linear-gradient(#3EAEDA 0%, #95E1FF 50%, #031A46 100%);
     height: 100vh;
     z-index: -2;
 }
@@ -81,7 +81,8 @@ header ul li a:not(.active):hover
     left: 10px;
     width: 14px;
     height: 2px;
-    background-color: #EF4650;
+    background-color: #031A46;
+    ;
     border-radius: 5px;
 }
 
