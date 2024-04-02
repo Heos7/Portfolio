@@ -13,6 +13,7 @@ body
     background: linear-gradient(#321D56 0%, #F05051 50%, #FEA658 70%);
     height: 100vh;
     z-index: -2;
+    overflow-x: hidden;
 }
 
 header
@@ -109,18 +110,6 @@ header ul li a:not(.active):hover
     z-index: -1;
 }
 
-.Ecran
-{
-    padding: 2vh 2vw;
-    position: absolute;
-    top: 15vh;
-    left: 15vw;
-    width: 40vw;
-    height: 43vh;
-    flex-shrink: 0;
-    background-color: #ffecd4;
-    z-index: 2;
-}
 
 h1
 {
@@ -130,38 +119,65 @@ h1
     color: #222831;
 }
 
-.Ecran p
+.screen
 {
-    font-family: 'jost', sans-serif;
-    padding-top: 2vh;
-    font-size: 1rem;
-    font-weight: 400;
+    position: absolute;
+    padding: 2vh 2vw;
+    top: 15vh;
+    left: 15vw;
+    width: 40vw;
+    height: 43vh;
+    flex-shrink: 0;
+    background-color: #ffecd4;
+    border-width: 10px 10px 15px 10px;
+    border-style: solid;
+    border-color: #222831;
+    z-index: 3;
 }
 
-.Ecran::after
+.screen-foot
+{
+    position: absolute;
+    bottom: -5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4vw;
+    height: 5vh;
+    background-color: #FFECD4;
+    z-index: 3;
+}
+
+.desk
+{
+    position: absolute;
+    left: 9vw;
+    width: 80vw;
+    height: 7vh;
+    bottom: -10vh;
+    background-color: #EF4650;
+    transform: perspective(10vh) rotateX(10deg);
+    z-index: 2;
+}
+
+.desk::after
 {
     content: '';
     position: absolute;
-    bottom: -3rem;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 3rem;
-    width: 4rem;
-    background-color: #e2bb8a;
+    left: 1.2vw;
+    width: 100%;
+    height: 3vh;
+    bottom: -3vh;
+    background-color: #321D56;
+    transform: perspective(10vh) rotateX(-10.5deg);
 }
 
-#Table
+.desk-leg
 {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
 
-.Eclats
-{
-    position: relative;
-    padding: 7rem;
-    height: 100vh;
-    background: #321D56;
+    left: 7vw;
+    width: 2vw;
+    height: 20vh;
+    background-color: aqua;
+    transform: ;
 }
