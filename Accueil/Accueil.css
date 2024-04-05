@@ -110,6 +110,13 @@ header ul li a:not(.active):hover
     z-index: -1;
 }
 
+.Image img#nuages-1
+{
+    width: 30vw;
+    height: auto;
+    flex-shrink: 0;
+}
+
 .screen
 {
     position: absolute;
