@@ -260,3 +260,9 @@ header ul li a:not(.active):hover
 {
     color: #FFECD4;
 }
+
+.forme1
+{
+    height: 80vh;
+    width: auto;
+}
