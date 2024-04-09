@@ -249,16 +249,26 @@ header ul li a:not(.active):hover
     background-color: #402701;
 }
 
-.eclats
+.graph
 {
     height: 100vh;
     width: 100%;
     background-color: #FECC8E;
+    display: flex;
 }
 
-.eclats h2
+.gauche
 {
-    color: #FFECD4;
+    position: relative;
+    flex: 1;
+    background-color: #FEA658;
+}
+
+.droite
+{
+    position: relative;
+    flex: 1;
+    background-color: #321D56;
 }
 
 .forme1
@@ -266,3 +276,11 @@ header ul li a:not(.active):hover
     height: 80vh;
     width: auto;
 }
+
+.graph h2
+{
+    color: #FFECD4;
+    font-size: 2rem;
+    font-family: 'jost', sans-serif;
+}
+
