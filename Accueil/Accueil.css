@@ -305,4 +305,5 @@ header ul li a:not(.active):hover
     font-size: 1.1rem;
     font-family: 'roboto', sans-serif;
     font-weight: 300;
+    text-align: center;
 }
