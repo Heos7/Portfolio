@@ -269,18 +269,40 @@ header ul li a:not(.active):hover
     position: relative;
     flex: 1;
     background-color: #321D56;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .forme1
 {
     height: 80vh;
     width: auto;
+
 }
 
 .graph h2
 {
+    margin: 5%;
     color: #FFECD4;
-    font-size: 2rem;
+    font-size: 6.25rem;
+    font-family: 'jost', sans-serif;
+    font-weight: 700;
+}
+
+.graph h5
+{
+    color: #FFECD4;
+    font-size: 1.5rem;
     font-family: 'jost', sans-serif;
 }
 
+.graph p
+{
+    margin: 5%;
+    color: #FFECD4;
+    font-size: 1.1rem;
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+}
