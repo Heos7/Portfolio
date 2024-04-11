@@ -280,7 +280,6 @@ header ul li a:not(.active):hover
 {
     height: 80vh;
     width: auto;
-    margin: 5%;
 }
 
 .graph h2
