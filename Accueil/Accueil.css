@@ -362,3 +362,9 @@ header ul li a:not(.active):hover
     font-weight: 400;
     text-align: center;
 }
+
+.forme2
+{
+    height: auto;
+    width: 45vw;
+}
