@@ -286,7 +286,7 @@ header ul li a:not(.active):hover
 {
     margin: 5%;
     color: #FFECD4;
-    font-size: 6.25rem;
+    font-size: 5.5rem;
     font-family: 'jost', sans-serif;
     font-weight: 700;
     color: #EF4650;
@@ -303,6 +303,60 @@ header ul li a:not(.active):hover
 {
     margin: 5%;
     color: #EF4650;
+    font-size: 1.1rem;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+#motion
+{
+    height: 100vh;
+    width: 100%;
+    background-color: #EF4650;
+    display: flex;
+}
+
+#gauche-m
+{
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#droite-m
+{
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#motion h2
+{
+    margin: 5%;
+    color: #FFECD4;
+    font-size: 5.5rem;
+    font-family: 'jost', sans-serif;
+    font-weight: 700;
+    color: #FFECD4;
+}
+
+#motion h5
+{
+    color: #222831;
+    font-size: 1.5rem;
+    font-family: 'jost', sans-serif;
+}
+
+#motion p
+{
+    margin: 5%;
+    color: #FFECD4;
     font-size: 1.1rem;
     font-family: 'roboto', sans-serif;
     font-weight: 400;
