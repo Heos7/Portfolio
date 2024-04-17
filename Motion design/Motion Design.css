@@ -109,6 +109,57 @@ header ul li a:not(.active):hover
     z-index: -1;
 }
 
+.Image img#nuages-1
+{
+    top: 25vh;
+    left: -2vw;
+    width: 30vw;
+    height: auto;
+    flex-shrink: 0;
+    z-index: -4;
+    opacity: 0.9;
+}
+
+.Image img#nuages-2
+{
+    top: 40vh;
+    left: 78vw;
+    width: 17vw;
+    height: auto;
+    flex-shrink: 0;
+    opacity: 0.9;
+}
+
+.Image img#nuages-3
+{
+    top: 12vh;
+    left: 70vw;
+    width: 18vw;
+    height: auto;
+    flex-shrink: 0;
+    opacity: 0.9;
+}
+
+.Image img#nuages-4
+{
+    top: 5vh;
+    left: 30vw;
+    width: 21vw;
+    height: auto;
+    flex-shrink: 0;
+    opacity: 0.9;
+}
+
+.Image img#nuages-5
+{
+    top: 30vh;
+    left: 50vw;
+    width: 12vw;
+    height: auto;
+    flex-shrink: 0;
+    opacity: 0.9;
+}
+
 .screen
 {
     position: absolute;
