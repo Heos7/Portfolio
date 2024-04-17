@@ -13,6 +13,7 @@ body
     background: linear-gradient(#3EAEDA 0%, #95E1FF 50%, #031A46 100%);
     height: 100vh;
     z-index: -2;
+    overflow-x: hidden;
 }
 
 header
@@ -110,20 +111,74 @@ header ul li a:not(.active):hover
     z-index: -1;
 }
 
-.Ecran
+.Image img#nuages-1
 {
-    padding: 2vh 2vw;
+    top: 25vh;
+    left: -2vw;
+    width: 30vw;
+    height: auto;
+    flex-shrink: 0;
+    z-index: -4;
+    opacity: 0.9;
+}
+
+.Image img#nuages-2
+{
+    top: 40vh;
+    left: 78vw;
+    width: 17vw;
+    height: auto;
+    flex-shrink: 0;
+    opacity: 0.9;
+}
+
+.Image img#nuages-3
+{
+    top: 12vh;
+    left: 70vw;
+    width: 18vw;
+    height: auto;
+    flex-shrink: 0;
+    opacity: 0.9;
+}
+
+.Image img#nuages-4
+{
+    top: 5vh;
+    left: 30vw;
+    width: 21vw;
+    height: auto;
+    flex-shrink: 0;
+    opacity: 0.9;
+}
+
+.Image img#nuages-5
+{
+    top: 30vh;
+    left: 50vw;
+    width: 12vw;
+    height: auto;
+    flex-shrink: 0;
+    opacity: 0.9;
+}
+
+.screen
+{
     position: absolute;
+    padding: 2vh 2vw;
     top: 15vh;
     left: 15vw;
     width: 40vw;
     height: 43vh;
     flex-shrink: 0;
     background-color: #ffecd4;
-    z-index: 2;
+    border-width: 10px 10px 15px 10px;
+    border-style: solid;
+    border-color: #222831;
+    z-index: 3;
 }
 
-h1
+.screen h1
 {
     font-size: 3rem;
     font-family: 'roboto', sans-serif;
@@ -131,7 +186,7 @@ h1
     color: #222831;
 }
 
-.Ecran p
+.screen p
 {
     font-family: 'jost', sans-serif;
     padding-top: 2vh;
@@ -139,24 +194,60 @@ h1
     font-weight: 400;
 }
 
-.Ecran::after
+.screen-foot
+{
+    position: absolute;
+    bottom: -5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4vw;
+    height: 5vh;
+    background-color: #222831;
+    z-index: 3;
+}
+
+.desk
+{
+    position: absolute;
+    left: 9vw;
+    width: 80vw;
+    height: 7vh;
+    bottom: -10vh;
+    background-color: #402701;
+    transform: perspective(10vh) rotateX(10deg);
+    z-index: 1;
+}
+
+.desk::after
 {
     content: '';
     position: absolute;
-    bottom: -3rem;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 3rem;
-    width: 4rem;
-    background-color: #e2bb8a;
+    left: 1.2vw;
+    width: 100%;
+    height: 3vh;
+    bottom: -3vh;
+    background-color: #1D1201;
+    transform: perspective(10vh) rotateX(-10.5deg);
 }
 
-#Table
+.desk-leg
 {
     position: absolute;
+    left: 12vw;
+    top: 44vh;
+    width: 2vw;
+    height: 39.8vh;
+    background-color: #402701;
+}
+
+.bas
+{
+    content: '';
+    position: absolute;
     bottom: 0;
-    left: 0;
     width: 100%;
+    height: 18vh;
+    background-color: #1D1201;
 }
 
 .Eclats
