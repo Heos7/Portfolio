@@ -368,3 +368,43 @@ header ul li a:not(.active):hover
     height: auto;
     width: 45vw;
 }
+
+#web
+{
+    height: 100vh;
+    width: 100%;
+    background-color: #FFECD4;
+    display: flex;
+}
+
+#web h2
+{
+    margin: 5%;
+    color: #222831;
+    font-size: 5.5rem;
+    font-family: 'jost', sans-serif;
+    font-weight: 700;
+}
+
+#web h5
+{
+    color: #EF4650;
+    font-size: 1.5rem;
+    font-family: 'jost', sans-serif;
+}
+
+#web p
+{
+    margin: 5%;
+    color: #222831;
+    font-size: 1.1rem;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+#forme3
+{
+    height: auto;
+    width: 45vw;
+}
